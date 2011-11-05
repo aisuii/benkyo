@@ -1,0 +1,3 @@
+#/bin/sh
+cd `dirname $0`
+rlwrap ocaml -init utf.ml
